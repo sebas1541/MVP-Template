@@ -14,6 +14,12 @@ public class View {
         return number;
     }
 
+    public float readFloat(String message) {
+        System.out.println(message);
+        float number = Float.parseFloat(in.nextLine());
+        return number;
+    }
+
     public String readString(String message) {
         System.out.println(message);
         String text = in.nextLine();
